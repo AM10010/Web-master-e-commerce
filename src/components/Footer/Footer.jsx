@@ -5,7 +5,7 @@ import { faInstagram, faTwitter, faLinkedin, faFacebook } from "@fortawesome/fre
 import "./Footer.css";
 import qrimg from "../../Assets/images/Qr Code.png";
 import appstoreimg from "../../Assets/images/AppStore.png";
-import googleplayimg from "../../Assets/images/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png"; 
+import googleplayimg from "../../Assets/images/googleplay.png";
 
 const Footer = () => {
   return (
