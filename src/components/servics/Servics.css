@@ -1,0 +1,16 @@
+.servics{
+    h5{
+        text-transform:uppercase;
+        font-size: 20px;
+    }
+}
+.service-card:hover{
+    background-color: #DB4444;
+    color: white;
+}
+
+.service-card{
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+border-radius: 10px;
+}

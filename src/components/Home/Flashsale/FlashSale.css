@@ -1,0 +1,64 @@
+.number {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  letter-spacing: 4%;
+}
+.flash-dot {
+  color: #e07575;
+  font-size: 35px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.words {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+.flash-sale {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 4%;
+}
+.flash-arrow {
+  font-size: 24px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.flash-header{
+color: #DB4444;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+    
+}
+.box{
+width: 20px;
+height: 40px;
+border-radius: 5px;
+background-color: #DB4444;
+}
+.view-prod{
+    text-decoration: none;
+    width: 234;
+height: 56;
+top: 1219px;
+left: 603px;
+gap: 10px;
+border-radius: 4px;
+
+background-color: #DB4444;
+color: white;
+}
+.view-prod:hover{
+    background-color: #fe0000;
+}

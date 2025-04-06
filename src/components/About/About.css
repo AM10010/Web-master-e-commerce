@@ -1,0 +1,69 @@
+
+
+.team-section h5 {
+  text-transform: capitalize;
+  font-size: 32px;
+}
+.about-text {
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 90%;
+  }
+  h2{
+    font-size: 54px;
+  }
+}
+.stats div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faStore {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: lighter;
+  height: 40px;
+  width: 40px;
+}
+
+.store {
+  background-color: #747475;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-weight: lighter;
+  margin: 10px;
+}
+.item h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  letter-spacing: 4%;
+}
+.item:hover {
+  background-color: #db4444;
+  color: white;
+}
+.dots{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    background-color:#747475 ;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.dot:hover{
+    background-color: #db4444;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-right:solid 1px rgba(0, 0, 0, 0.314);
+  margin-right: 40px;
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  p:hover{
+    color: #DB4444;
+    font-weight: bolder;
+  }
+}

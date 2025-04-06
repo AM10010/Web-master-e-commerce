@@ -1,0 +1,46 @@
+
+
+
+.llo{
+    width: 100%;
+}
+.row{
+    width: 100%;
+
+}
+.parent{
+    height: 40%;
+}
+input{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.314);
+    width: 100%;
+    display: block;
+}
+.create{
+background-color: #DB4444;
+color :white;
+border-radius: 4px;
+padding: 16px;
+font-size: 16px;
+border: none;
+text-align: center;
+}
+.gmail{
+    padding: 16px;
+border-radius: 4px;
+border-width: 1px;
+background-color: white;
+}
+.login{
+    font-size: 16px;
+    a{
+        color: black;
+        font-weight: 600;
+    }
+}
+.forget{
+        font-size: 16px;
+        color: #DB4444;
+        text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.CheckOut-Input{
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    border: none;   
+    padding: 10px; 
+}
+.CheckOut-Input:focus{
+    outline: none;
+}
+.CheckOut-Input-label{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+}

@@ -1,0 +1,68 @@
+
+.links {
+  text-decoration: none;
+  color: black;
+
+}
+.links:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px; /* You can adjust this to your desired width */
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: #f5f5f5;
+  padding: 8px 12px; /* Adds padding to give space for placeholder text */
+  font-size: 14px;
+  width: 100%; /* Ensures input takes full width of the container */
+
+
+}
+.iconss {
+  font-size: 25px;
+  cursor: pointer;
+}
+.icons  {
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  color: black ;
+}
+.icons:hover {
+  background-color: #DB4444;
+color : white;
+}
+.cart-count{
+  top: 70%;
+  left: 10%;
+  padding: 3px;
+  background-color: #DB4444;
+  border-radius: 70%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-20%, -50%);
+}
+
+
+.cart-sign {
+  display: flex;
+  align-items: center; /* Ensure cart icon and its count are aligned */
+  position: relative;
+}
+
+
+
