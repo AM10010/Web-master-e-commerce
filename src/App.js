@@ -32,12 +32,13 @@ function App() {
                 </>
               }
             />
+            <Route path="/" element={<Home />} />
+            <Route path="/Web-master-e-commerce/" element={<Home />} />
             <Route path="/product/:id" element={<ProductPage />} />
             <Route path="/bestselling" element={<Bestselling />} />
             <Route path="/about" element={<About />} />
             <Route path="/checkout" element={<CheckOut />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/signup" element={<SignupForm />} />
