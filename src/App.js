@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import ProductList from "./components/Product/Product";
+// import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/About/About";
 import Contact from "./components/contact/Contact";
 import { Routes, Route } from "react-router";
