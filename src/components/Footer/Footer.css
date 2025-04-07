@@ -31,3 +31,83 @@
 .input-group input::placeholder{
     color: white;
 }
+/* Footer.css */
+
+/* General Styling */
+
+  .footer h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .input-group {
+    margin-top: 1rem;
+  }
+  
+  /* Social Icons */
+  .social-icons svg {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .social-icons svg:hover {
+    color: #bbb;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 767px) {
+    .footer {
+      padding: 2rem 1rem;
+    }
+  
+    .footer .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer .col-md-3,
+    .footer .col-md-2 {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+  
+    .footer .col-md-2.download-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer .col-md-2.download-section img {
+      margin-bottom: 1rem;
+    }
+  
+    .social-icons {
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  
+    .footer .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .footer .text-center p {
+      font-size: 0.85rem;
+    }
+  }
+  

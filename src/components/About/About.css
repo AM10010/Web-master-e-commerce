@@ -67,3 +67,58 @@
     background-color: #db4444;
     cursor: pointer;
 }
+/* About.css */
+
+
+
+
+
+
+/* Team images */
+
+
+/* Center text and icons in team section */
+.team-section div {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+
+/* Stats items */
+
+
+
+
+
+/* Media queries for mobile */
+@media (max-width: 767px) {
+  .about-text {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .breadcrumb {
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+  }
+
+  .stats .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .team-section .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .team-section img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .stats .item {
+    padding: 2rem 1rem;
+  }
+}

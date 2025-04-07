@@ -13,3 +13,74 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0%;
 }
+
+@media (max-width: 767px) {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col-md-5 {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    /* Billing form adjustments */
+    .CheckOut-Input {
+      margin-bottom: 1rem;
+    }
+  
+    .form-check-input {
+      margin-top: 0.5rem;
+    }
+  
+    /* Adjust form and cart item section */
+    .ms-5 {
+      margin-left: 0;
+    }
+  
+    .mb-2 {
+      margin-bottom: 1.5rem;
+    }
+  
+    .btn-danger {
+      width: 100%;
+    }
+  
+    .payment-icons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1rem;
+    }
+  
+    .payment-icons svg {
+      font-size: 1.5rem;
+    }
+  
+    .text-start {
+      text-align: center;
+    }
+  
+    /* Cart items styling */
+    .d-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .d-flex img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 0.5rem;
+    }
+  
+    /* Mobile-friendly coupon and button styles */
+    .w-75 {
+      width: 100%;
+      max-width: 120px;
+    }
+  }
