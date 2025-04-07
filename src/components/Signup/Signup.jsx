@@ -3,8 +3,10 @@ import Sideimg from "../../Assets/images/Side Image 2 (1).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGoogle} from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./Signup.css";
 const SignupForm = () => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,7 +24,7 @@ const SignupForm = () => {
     localStorage.setItem("user", JSON.stringify(formData));
 
     // Redirect to login (You can also use React Router)
-    window.location.href = "/login";
+    navigate("/login");
   };
 
   return (
