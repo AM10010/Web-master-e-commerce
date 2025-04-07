@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Sideimg from "../../Assets/images/Side Image 2 (1).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faGoogle} from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 import "./Signup.css";
 const SignupForm = () => {
   const [formData, setFormData] = useState({
@@ -87,7 +88,7 @@ const SignupForm = () => {
 
 
         <p className="text-center login mt-3">
-          Already have an account? <a href="/login">Log in</a>
+          Already have an account? <Link to="/login">Log in</Link>
         </p>
       </div>
     </div>
